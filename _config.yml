@@ -16,7 +16,7 @@ production_url : http://sunyfredonia.github.io/
 
 version : 0.1.0
 
-baseurl : http://sunyfredonia.github.io/
+baseurl : http://sunyfredonia.github.io
    
    
 analytics :
