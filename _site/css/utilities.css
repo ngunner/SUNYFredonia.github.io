@@ -1,0 +1,9 @@
+/**Utilities CSS**/
+
+.u-960 {
+max-width: 960px;
+}
+
+.u-5pad {
+padding: 5px;
+}

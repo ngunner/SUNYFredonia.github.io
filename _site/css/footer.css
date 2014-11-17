@@ -1,0 +1,28 @@
+.footer p a {
+color: white;
+}
+
+.footer h1 {
+color: white;
+}
+
+.footer address {
+color: white;
+}
+
+.footer strong {
+color: white;
+font-size: 14px;
+line-height: 1em;
+text-decoration: underline;
+}
+
+.logofooter {
+height:60px;
+padding-bottom:10px;
+padding-right:3px;
+}
+
+address a {
+  color:white;
+}

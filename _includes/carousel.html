@@ -1,0 +1,62 @@
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators 
+		<ol class="carousel-indicators">
+			{% for post in site.categories.slide limit:1 %}
+			<li data-target="#myCarousel" data-slide-to="" class="active"></li>
+			{% endfor %}
+			{% for post in site.categories.slide offset:1 %}
+			<li data-target="#myCarousel" data-slide-to=""></li>
+			{% endfor %}
+		</ol>
+		-->
+		
+		<div class="carousel-inner">
+		
+		<!-- there are two loops because the first slide's class must be active -->
+			{% for post in site.categories.slide limit:1 %}
+			<div class="item active">
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}" alt="{{ post.title }}"></a>
+				<div class="container">
+					{% if post.caption == true %}
+					<div class="carousel-caption">
+						<div class="col-md-11">
+						<a href="{{ post.link }}"><div class="slidetitle">{{ post.title }}</div></a>
+						<div class="slidecaption">{{ post.content }}</div>
+						</div>
+						{% if post.link %}
+						<div class="col-md-1">
+						<div class="morearrow"><a href="{{ post.link }}"><span class="fa fa-arrow-circle-o-right"></span></a></div>
+						</div>
+						{% endif %}
+					</div><!-- carousel-caption -->
+					{% endif %}
+				</div><!-- container -->
+			</div><!-- item -->
+			{% endfor %}
+			{% for post in site.categories.slide offset:1 %}
+			<div class="item">
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}" alt="{{ post.title }}"></a>
+				<div class="container">
+					{% if post.caption == true %}
+					<div class="carousel-caption">
+						<div class="col-md-11">
+						<a href="{{ post.link }}"><div class="slidetitle">{{ post.title }}</div></a>
+						<div class="slidecaption">{{ post.content }}</div>
+						</div>
+						{% if post.link %}
+						<div class="col-md-1">
+						<div class="morearrow"><a href="{{ post.link }}"><span class="fa fa-arrow-circle-o-right"></span></a></div>
+						</div>
+						{% endif %}
+					</div><!-- carousel-caption -->
+					{% endif %}
+				</div><!-- container -->
+			</div><!-- item -->
+			{% endfor %}
+		</div><!-- carousel-inner -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			<a class="downarrowlanding" name="downarrow"></a>
+			<a class="downarrow" href="#downarrow"><span class="glyphicon glyphicon-chevron-down"></span></a>
+			
+	</div><!-- carousel slide -->

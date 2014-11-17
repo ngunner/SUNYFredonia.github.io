@@ -1,0 +1,19 @@
+.accordion h4 {
+color: white;
+}
+
+.accordion p a {
+color: white;
+}
+
+.accordion .panel {
+background-color: rgba(0,56,168,0.9);
+}
+
+.accordion .panel:hover {
+background-color: rgba(0,56,168,1);
+}
+
+.accordion .container {
+padding-top: 12px;
+}

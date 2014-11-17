@@ -1,0 +1,54 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+  		<div class="navbar-header">
+  			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      			<span class="sr-only">Toggle navigation</span>
+      			<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+    		</button>
+    		<a class="navbar-brand" style="font-family:helvetica;color:white;" href="{{ site.baseurl }}/"><img src="http://sunyfredonia.github.io/homepage/img/fredlogowhite.png"></a>
+  		</div><!-- navbar-header -->
+  			
+  		<!-- Collect the nav links, forms, and other content for toggling -->
+ 	
+  	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    		<ul class="nav navbar-nav navbar-right">
+      			<li><a href="{{ site.baseurl }}/pages/admissions.html">Admissions</a></li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Students <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+        				<li><a href="{{ site.baseurl }}/pages/students.html">Student Resources</a></li>
+        				<li><a href="http://www.fredonia.edu/studentaffairs/parentlinks.asp">Parent Resources</a></li>
+        			</ul>
+        		</li>
+      			<li><a href="{{ site.baseurl }}/pages/faculty_staff.html">Faculty & Staff</a></li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alumni <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+        				<li><a href="http://alumni.fredonia.edu/Events.aspx">Alumni Calendar of Events</a></li>
+        				<li><a href="http://alumni.fredonia.edu/">Alumni Highlights</a></li>
+        				<li><a href="http://www.fredonia.edu/foundation/">Giving</a></li>
+        			</ul>
+        		</li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-envelope"></span> <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+          				<li><a href="http://mail.fredonia.edu/">FREDmail</a></li>
+          				<li><a href="https://fredonia.sln.suny.edu/default.asp">Angel</a></li>
+          				<li><a href="https://connect.fredonia.edu/yourconnection/">Your Connection</a></li>
+          				<li class="divider"></li>
+          				<li><a href="http://fredapps.fredonia.edu/">All FREDapps</a></li>
+        			</ul>
+      			</li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search"></span> <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+        				<li>
+							<form action="{{ site.baseurl }}/pages/search.html" method="get" id="topsearch">
+      						<input type="text" name="q" class="span10" autocomplete="on" placeholder="Search here" />
+    						</form>
+    					</li>
+        			</ul>
+      			</li>
+    		</ul>
+    	</div><!-- collapse navbar-collapse -->
+	</div><!-- container -->
+</nav><!-- navbar -->

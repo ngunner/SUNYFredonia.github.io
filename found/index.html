@@ -1,0 +1,268 @@
+---
+layout: page
+title: You've Found Fredonia
+---
+
+<div class="mission">
+	<div style="height:80px;">
+	</div><!-- buffer -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="fitvids" style="margin:10px 0 10px 0;">
+					<iframe width="560" height="315" src="//www.youtube.com/embed/wsX1wsC2iy0" frameborder="0" allowfullscreen></iframe>
+				</div><!-- fitvid -->
+			</div><!-- col-md-8 -->
+			<div class="col-md-4">
+				<h2>You've found Fredonia</h2>
+				<p class="lead">Evolve, transform, change the world! Become a part of the Fredonia story.</p>
+				<a href="http://www.fredonia.edu/admissions/"><button type="button" class="btn btn-primary">Get in touch with our admissions team</button></a>
+				<img class="img-responsive center-block" width="200px" style="margin-top:20px;" src="http://www.fredonia.edu/_toplevel_files/images/campaigns/2014-found/crane.png">
+			</div><!-- col-md-4 -->
+		</div><!-- row -->
+		
+	</div><!-- container -->
+</div><!-- mission -->
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+	<!-- EVOLVE -->
+	<h1>Evolve <small>Become better at your passions while finding new ones</small></h1>
+	<div class="grid">
+		<div class="row">
+		
+			<!-- EVOLVE #1 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.tags.evolve limit:1 offset:0 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- EVOLVE #2 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.tags.evolve limit:1 offset:1 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- EVOLVE #3 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.tags.evolve limit:1 offset:2 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+		</div><!-- row -->
+	</div><!-- grid -->
+
+
+	<!-- TRANFSFORM -->
+	<h1>Transform <small>Grow every day at Fredonia</small></h1>
+	<div class="grid">
+		<div class="row">
+		
+			<!-- TRANSFORM #1 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.tags.transform limit:1 offset:0 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- TRANSFORM #2 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.tags.transform limit:1 offset:1 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- TRANSFORM #3 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.tags.transform limit:1 offset:2 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+		</div><!-- row -->
+	</div><!-- grid -->
+	
+	
+	
+	
+	
+	<!-- CRANE -->
+<div class="mission">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>What's with the crane?</h2>
+				<p class="lead">Fredonians tend to see things differently...</p>
+				<p class="lead">Take this piece of paper. Sure, it's flat, square, and brightly colored -- but we know it can be more. With the right mix of patience, instruction, science, creativity, and fun, it can be transformed into something more. Something unique. Something beautiful.</p>
+				<p class="lead">This crane symbolizes the transformation which Fredonia students experience. At Fredonia, you're encouraged to embrace your creativity -- starting right now!  Make your origami "FRED" crane come to life today -- and then share it on social media from your home town or a favorite place of yours. It's a great way to let today's Fredonians know where next year's students will be coming from!</p>
+			</div><!-- col-md-6 -->
+			<div class="col-md-6">
+				<div class="fitvids" style="margin:10px 30px 10px 0;">
+					<iframe width="560" height="315" src="//www.youtube.com/embed/TwnCzpCV87c" frameborder="0" allowfullscreen></iframe>
+				</div><!-- fitvid -->
+				<a href="http://www.fredonia.edu/_toplevel_files/images/campaigns/2014-found/Crane.pdf"><button type="button" class="btn btn-primary center-block" style="margin-bottom:10px;">Download the Fredonia crane pattern!</button></a>
+				<div class="socialicons">
+		<a href="http://www.twitter.com/fredoniau"><span class="fa fa-twitter-square"></span></a> <a href="http://www.instagram.com/fredoniau"><span class="fa fa-instagram"></span></a> <a href="http://www.facebook.com/fredoniau"><span class="fa fa-facebook-square"></span></a>
+</div><!-- socialicons -->
+			</div><!-- col-md-6 -->
+		</div><!-- row -->	
+	</div><!-- container -->
+</div><!-- mission -->
+
+	
+	
+	
+
+	
+	<!-- CHANGE THE WORLD -->
+	<h1>Change the world <small>Find a degree that enables you to make a difference</small></h1>
+	<div class="grid">
+		<div class="row">
+		
+			<!-- CHANGE THE WORLD #1 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.tags.change limit:1 offset:0 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- CHANGE THE WORLD #2 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.tags.change limit:1 offset:1 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+			<!-- CHANGE THE WORLD #3 -->
+			<div class="col-md-4">
+				<div class="box">
+				{% for post in site.tags.change limit:1 offset:2 %}
+				{% if post.imageUrl %}
+				<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+					<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+				</a>
+				{% else %}
+				<a href="{{ post.link }}">
+				<div class="boxtype">{{ post.content }}</div>
+				</a>
+				{% endif %}
+				{% endfor %}
+				</div><!-- box -->
+			</div><!--"col-md-3"-->
+			
+		</div><!-- row -->
+	</div><!-- grid -->
+
+</div><!-- container -->
+
+
+
+
+<div class="mission">
+<hr>
+<div class="center-block"> 
+<div class="container">
+<h1>You want more than an education.<br>You want to evolve, transform, change the world!</h1>
+	<p class="lead">Fredonia educates, challenges, and inspires students to become skilled, connected, creative, and responsible global citizens and professionals. The university enriches the world through scholarship, artistic expression, community engagement, and entrepreneurship.</p>
+	<a href="http://blog.fredonia.edu"><button type="button" class="btn btn-success">More Fredonia stories</button></a>
+	<a href="https://fredonia.askadmissions.net/emtinterestpage.aspx?ip=freshman"><button type="button" class="btn btn-success">Get in touch</button></a>
+  	<a href="http://www.fredonia.edu/admissions/visit.asp"><button type="button" class="btn btn-success">Visit campus</button></a>
+  	<a href="http://www.fredonia.edu/admissions/apply.asp"><button type="button" class="btn btn-primary">Apply</button></a>
+</div><!-- container -->
+</div><!-- centered -->
+<div class="socialicons">
+		<a href="http://www.twitter.com/fredoniau"><span class="fa fa-twitter-square"></span></a> <a href="http://www.instagram.com/fredoniau"><span class="fa fa-instagram"></span></a> <a href="http://www.facebook.com/fredoniau"><span class="fa fa-facebook-square"></span></a>
+</div><!-- socialicons -->
+<hr>
+</div><!-- mission -->

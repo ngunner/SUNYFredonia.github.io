@@ -1,0 +1,31 @@
+/**Layout CSS**/
+
+.topimage {
+height: 350px;
+min-width: 500px;
+overflow: hidden;
+}
+
+.topimage-overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0,0,0,0.15);
+z-index: 10;
+}
+
+.topimage h2 {
+position: relative;
+top: 180px;
+color: white;
+z-index: 20;
+}
+
+
+
+
+.sidebar-nav .navbar {
+background-color: white;
+}

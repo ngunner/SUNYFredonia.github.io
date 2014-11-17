@@ -1,0 +1,92 @@
+.navbar-toggle {
+margin-top: 22px;
+}
+
+/** Large **/
+@media (min-width: 800px) {
+
+.nav {
+padding-top: 13px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: white;
+}
+
+.navbar-brand {
+font-size: 30px;
+padding-top: 15px;
+}
+
+.navbar-brand img {
+height:60px;
+padding-bottom:10px;
+padding-right:3px;
+}
+
+.navbar-inner {
+background-color: rgba(0,56,168,0.9);
+height: 80px;
+}
+.navbar-inner container {
+background-color: rgba(0,56,168,0.9);
+height: 80px;
+}
+.navbar {
+background-color: rgba(0,56,168,0.9);
+height: 80px;
+}
+
+.navbar-inverse .navbar-brand { color: #D4D4D4}
+.navbar-inverse .navbar-nav>li>a { color: #D4D4D4}
+.navbar-nav>.open>a:focus { color: #D4D4D4}
+}
+
+@media (max-width: 990px) {
+.navbar-brand img {
+height:50px;
+padding-bottom:10px;
+padding-right:3px;
+}
+}
+
+/** Mobile **/
+@media (max-width: 800px) {
+
+.navbar-inverse .navbar-nav>li>a {
+color: white;
+} 
+
+.navbar-toggle {
+margin-top: 10px;
+}
+
+.navbar-brand {
+  padding: 5px 0 0 10px;
+  font-size: 20px;
+}
+
+.navbar-inner {
+background-color: rgba(0,56,168,1);
+}
+.navbar-inner container {
+background-color: rgba(0,56,168,1);
+}
+.navbar {
+background-color: rgba(0,56,168,1);
+}
+
+.navbar-brand img {
+height:50px;
+padding-bottom:10px;
+padding-right:3px;
+}
+
+
+}
+
+/*Call this to make the navbar work in Omni update templates*/
+.navbar-fred-omni {
+background-color: #444444;
+margin-bottom: 0px;
+}

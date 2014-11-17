@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div style="height:75px;"></div>
+<div class="container">
+<!-- Search Box -->
+<a name="searchbox" id="searchboxa"></a>
+<div class="search">
+  <div class="container">
+	<h1 class="section-header text-center"><span class="fa fa-search"></span> Search:</h1>
+
+	<!-- Put the following javascript before the closing  tag. -->
+<script>
+(function() {
+  var cx = '001498624467528633936:gt_dejxqt40'; // Insert your own Custom Search engine ID here
+  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+  gcse.src = (document.location.protocol == 'https' ? 'https:' : 'http:') +
+      '//www.google.com/cse/cse.js?cx=' + cx;
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})();
+</script>
+
+<!-- Place this tag where you want both of the search box and the search results to render -->
+<gcse:search></gcse:search>
+
+
+	<!-- 
+	<form action="http://google.com/search" method="get">
+	  <input type="hidden" name="as_sitesearch" value="fredonia.edu" />
+	  <input type="text" name="q" class="span10" autocomplete="off" placeholder="Search for anything related to Fredonia here!" />
+	</form>
+	-->
+
+
+  </div>
+</div>
+</div><!-- container -->

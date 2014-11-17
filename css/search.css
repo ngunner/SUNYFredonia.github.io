@@ -1,0 +1,13 @@
+.search input{
+height: 50px;
+}
+
+#searchboxa {
+  position: absolute;
+  margin-top: -300px;
+}
+
+#topsearch {
+	margin-left: 5px;
+	margin-right: 5px;
+}

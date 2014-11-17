@@ -1,0 +1,211 @@
+---
+layout: default
+---
+<!-- TOP IMAGE -->
+<div class="topimage">
+	<img class="img-responsive" src="https://dl.dropboxusercontent.com/u/64133716/Homepage/Slides/flowertrees.jpg" />
+	<h2 class="center-block">Office of Admissions</h2>
+	<div class="topimage-overlay"></div>
+</div><!-- topimage -->
+<!-- END TOP IMAGE -->
+
+<!-- MAIN CONTAINER -->
+<div class="container u-960">
+	
+	<!-- MENU AND BODY ROW -->
+	<div class="row">
+		
+			
+			
+	<!-- SECTION NAV -->
+	<div class="col-md-3">	
+		<div class="sidebar-nav">
+      		<div class="navbar" role="navigation">
+        		<div class="navbar-header">
+          			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">View menu</button>
+          			<span class="visible-xs navbar-brand">Sidebar menu</span>
+        		</div><!-- navbar-header -->
+        		<div class="navbar-collapse collapse sidebar-navbar-collapse">
+          			<ul class="nav navbar-nav">
+            			<li><a href="#">Menu Item 1</a></li>
+            			<li><a href="#">Menu Item 2</a></li>
+            			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              				<ul class="dropdown-menu">
+                				<li><a href="#">Action</a></li>
+                				<li><a href="#">Another action</a></li>
+                				<li><a href="#">Something else here</a></li>
+                				<li class="divider"></li>
+                				<li class="dropdown-header">Nav header</li>
+                				<li><a href="#">Separated link</a></li>
+                				<li><a href="#">One more separated link</a></li>
+              				</ul>
+            			</li>
+            			<li><a href="#">Menu Item 4</a></li>
+            			<li><a href="#">Reviews <span class="badge">1,118</span></a></li>
+          			</ul>
+        		</div><!-- navbar-collapse collapse sidebar-navbar-collapse -->
+        	</div><!-- navbar -->
+        </div><!-- sidebar-nav -->	
+	</div><!-- col-md-3 -->
+	<!-- END SECTION NAV -->
+	
+		<div class="col-md-9">
+			<!-- INJECT SECTION TITLE BODY -->	
+			<h1>Welcome to Admissions</h1>
+			<img src="https://dl.dropboxusercontent.com/u/64133716/Homepage/Boxes/aerial.jpg" class="img-responsive pull-right u-5pad" style="max-width:300px;" />
+			<p>Lorizzle mofo dolor sit amizzle, shiz adipiscing elit. Nullizzle brizzle velizzle, fo shizzle mah nizzle fo rizzle, mah home g-dizzle volutpat, suscipit quis, gravida vizzle, gangsta. Pellentesque phat its fo rizzle. Bizzle erizzle. Pimpin' at dolor dapibus turpis tempizzle tempizzle. Maurizzle shizzle my nizzle crocodizzle nibh et turpis. For sure izzle boom shackalack. Pellentesque crackalackin rhoncizzle nisi. In hizzle platea dictumst. Fo shizzle dapibus. Curabitur uhuh ... yih! urna, pretizzle eu, dope dawg, eleifend fo, nunc. Gizzle suscipizzle. Integizzle i saw beyonces tizzles and my pizzle went crizzle velit my shizz purizzle.</p>
+			<p>Etizzle a magna sizzle augue ghetto accumsizzle. Aenizzle nizzle shut the shizzle up. Away mauris dolizzle, viverra vitae, facilisizzle izzle, dope izzle, yippiyo. Fizzle ante ipsum fizzle izzle pimpin' orci nizzle izzle that's the shizzle own yo' cubilia Curae; Ma nizzle dolizzle. Fo shizzle faucibizzle. Maecenizzle pharetra blandit quizzle. The bizzle rutrizzle fo crazy. I saw beyonces tizzles and my pizzle went crizzle facilisizzle. Fo shizzle sizzle yo mamma, venenatizzle eu, scelerisque bling bling, blandizzle sure, magna.</p>
+			<p>Lorizzle mofo dolor sit amizzle, shiz adipiscing elit. Nullizzle brizzle velizzle, fo shizzle mah nizzle fo rizzle, mah home g-dizzle volutpat, suscipit quis, gravida vizzle, gangsta. Pellentesque phat its fo rizzle. Bizzle erizzle. Pimpin' at dolor dapibus turpis tempizzle tempizzle. Maurizzle shizzle my nizzle crocodizzle nibh et turpis. For sure izzle boom shackalack. Pellentesque crackalackin rhoncizzle nisi. In hizzle platea dictumst. Fo shizzle dapibus. Curabitur uhuh ... yih! urna, pretizzle eu, dope dawg, eleifend fo, nunc. Gizzle suscipizzle. Integizzle i saw beyonces tizzles and my pizzle went crizzle velit my shizz purizzle.</p>
+			<p>Etizzle a magna sizzle augue ghetto accumsizzle. Aenizzle nizzle shut the shizzle up. Away mauris dolizzle, viverra vitae, facilisizzle izzle, dope izzle, yippiyo. Fizzle ante ipsum fizzle izzle pimpin' orci nizzle izzle that's the shizzle own yo' cubilia Curae; Ma nizzle dolizzle. Fo shizzle faucibizzle. Maecenizzle pharetra blandit quizzle. The bizzle rutrizzle fo crazy. I saw beyonces tizzles and my pizzle went crizzle facilisizzle. Fo shizzle sizzle yo mamma, venenatizzle eu, scelerisque bling bling, blandizzle sure, magna.</p>
+
+			<!-- END INJECT SECTION TITLE BODY -->	
+		
+		</div><!-- col-md-9 -->
+	</div><!-- row -->
+	<!-- END MENU AND BODY ROW -->
+	
+	<!-- CONTACT ELEMENTS -->
+	<div class="center-block">
+		<hr>
+		<ul class="pager">
+  			<li class="active"><a href="#">555-555-5555</a></li>
+  			<li><a href="#">Email</a></li>
+  			<li><a href="#">Contact</a></li>
+		</ul>
+		<hr>
+	</div><!-- center-block -->
+	<!-- END CONTACT ELEMENTS -->	
+	
+	<!-- INJECT STORIES -->
+	<div class="grid">
+				<div class="row">
+					<!-- #1 -->
+					<div class="col-md-5 u-5pad">
+						<div class="box">
+										{% for post in site.tags.evolve limit:1 offset:0 %}
+										{% if post.imageUrl %}
+										<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+											<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+										</a>
+										{% else %}
+										<a href="{{ post.link }}">
+										<div class="boxtype">{{ post.content }}</div>
+										</a>
+										{% endif %}
+										{% endfor %}
+						</div><!-- box -->
+					</div><!-- col-md-5 u-5pad -->
+					<!-- #2 -->				
+					<div class="col-md-7 u-5pad">
+						<div class="box">
+										{% for post in site.tags.evolve limit:1 offset:1 %}
+										{% if post.imageUrl %}
+										<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+											<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+										</a>
+										{% else %}
+										<a href="{{ post.link }}">
+										<div class="boxtype">{{ post.content }}</div>
+										</a>
+										{% endif %}
+										{% endfor %}
+						</div><!-- box -->
+					</div><!-- col-md-7 u-5pad -->
+				</div><!-- row -->						
+				<div class="row">
+					<!-- #3 -->
+					<div class="col-md-4 u-5pad">
+						<div class="box">
+										{% for post in site.tags.evolve limit:1 offset:2 %}
+										{% if post.imageUrl %}
+										<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+											<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+										</a>
+										{% else %}
+										<a href="{{ post.link }}">
+										<div class="boxtype">{{ post.content }}</div>
+										</a>
+										{% endif %}
+										{% endfor %}
+						</div><!-- box -->
+					</div><!-- col-md-4 u-5pad -->				
+					<!-- #4 -->
+					<div class="col-md-5 u-5pad">
+						<div class="box">
+										{% for post in site.tags.change limit:1 offset:1 %}
+										{% if post.imageUrl %}
+										<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+											<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+										</a>
+										{% else %}
+										<a href="{{ post.link }}">
+										<div class="boxtype">{{ post.content }}</div>
+										</a>
+										{% endif %}
+										{% endfor %}
+						</div><!-- box -->
+					</div><!-- col-md-5 u-5pad -->
+					<!-- #5 -->
+					<div class="col-md-3 u-5pad">
+						<div class="box">
+										{% for post in site.tags.change limit:1 offset:2 %}
+										{% if post.imageUrl %}
+										<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+											<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+										</a>
+										{% else %}
+										<a href="{{ post.link }}">
+										<div class="boxtype">{{ post.content }}</div>
+										</a>
+										{% endif %}
+										{% endfor %}
+						</div><!-- box -->
+					</div><!-- col-md-3 u-5pad -->
+				</div><!-- row -->
+			</div><!-- grid -->
+	<!-- END INJECT STORIES -->
+	
+	<!-- EVENTS -->
+	<div class="row mission">
+		<h3 class="center-block">Upcoming Events:</h3>
+		<div class="col-md-5 col-md-offset-1">
+			<!-- Event #1 -->
+			<hr>
+			<h4><a href="#">Event to happen</a></h4>
+			<small>1/30/14 at 4:30 p.m.</small> 
+			<p>Lorizzle mofo dolor sit amizzle, shiz adipiscing elit. Nullizzle brizzle velizzle.</p>
+			<!-- Event #2 -->
+			<hr>
+			<h4><a href="#">Event to happen</a></h4>
+			<small>1/30/14 at 4:30 p.m.</small> 
+			<p>This event will be really cool...</p>
+			<!-- Event #3 -->
+			<hr>
+			<h4><a href="#">Event to happen</a></h4>
+			<small>1/30/14 at 4:30 p.m.</small> 
+			<p>This event will be really cool...</p>
+			
+		</div><!-- col-md-6 -->
+		<div class="col-md-5">
+			<!-- Event #1 -->
+			<hr>
+			<h4><a href="#">Event to happen</a></h4>
+			<small>1/30/14 at 4:30 p.m.</small> 
+			<p>Lorizzle mofo dolor sit amizzle, shiz adipiscing elit.</p>
+			<!-- Event #2 -->
+			<hr>
+			<h4><a href="#">Event to happen</a></h4>
+			<small>1/30/14 at 4:30 p.m.</small> 
+			<p>This event will be really cool...</p>
+			<!-- Event #3 -->
+			<hr>
+			<h4><a href="#">Event to happen</a></h4>
+			<small>1/30/14 at 4:30 p.m.</small> 
+			<p>This event will be really cool...</p>
+			
+		</div><!-- col-md-6 -->
+	</div><!-- row -->
+	<!-- END EVENTS -->
+	
+</div><!-- container u-960 -->
+<!-- END MAIN CONTAINER -->

@@ -1,0 +1,164 @@
+permalink: /:year/:month/:day/:title 
+
+highlighter: pygments
+markdown: kramdown
+
+title : FREDONIA
+tagline: 
+author :
+  name : FREDONIA
+  email : webmaster@fredonia.edu
+  github : sunyfredonia
+  twitter : sunyfredonia
+  web : http://www.fredonia.edu
+
+production_url : http://sunyfredonis.github.io/homepage
+
+version : 0.1.0
+
+baseurl : http://sunyfredonia.github.io/homepage
+   
+   
+analytics :
+  provider : google 
+  google : 
+    tracking_id : 'UA-xxxxxxxx-x'
+
+  
+authors:
+  ngunner:
+    name: Nicholas Gunner
+    display_name: Nicholas Gunner
+    bio: New Media Manager at the State University of New York.
+    gravatar: http://www.gravatar.com/avatar/a85d870dce3cc177b6b0016a1ef4c200.png
+    email: ngunner@threesisters.us
+    web: http://www.nicholasgunner.com
+    twitter: nicholas_gunner
+    github: ngunner
+    
+  
+timezone : America/New_York
+
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://www.fredonia.edu'
+  metadata:
+    _posts/slides:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "slide"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "caption"
+        field:
+          element: "checkbox"
+          label: "Caption?"
+          value: "true"
+      - name: "imageUrl"
+        field:
+          element: "text"
+          label: "URL to image"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Enter a link for this slide"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
+    _posts/bigBoxes:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "bigbox"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "imageUrl"
+        field:
+          element: "text"
+          label: "URL to image"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Enter a link for this slide"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
+    _posts/boxes:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "box"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "imageUrl"
+        field:
+          element: "text"
+          label: "URL to image"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Enter a link for this slide"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
+    _posts/alert:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "alert"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Enter a link for this alert"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Slide title"
+      - name: "alertLevel"
+        field:
+          element: "select"
+          label: "Alert Level"
+          placeholder: "Select a level"
+          options:
+            - name: "Info"
+              value: "info"
+            - name: "Warning"
+              value: "warning"
+            - name: "Danger"
+              value: "danger"

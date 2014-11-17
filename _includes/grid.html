@@ -1,0 +1,148 @@
+<div class="center-block">
+	<h1>Glimpses of Fredonia</h1>
+</div><!-- centered -->
+	<div class="glimpsebuttons">
+		<ul class="pager">
+  			<li><a href="http://www.fredonia.edu/news">News</a></li>
+  			<li><a href="http://blog.fredonia.edu">Blog</a></li>
+  			<li><a href="http://www.fredonia.edu/mastercalendar/"><span class="fa fa-calendar"></span> Calendars</a></li>
+  			<li><a href="http://www.fredonia.edu/maps/"><span class="fa fa-compass"></span> Maps</a></li>
+		</ul>
+	</div><!-- glimpsebuttons -->
+
+<div class="grid">
+<div class="row">
+	<div class="col-md-6">
+		<div class="bigbox">
+		{% for post in site.categories.bigbox limit:1 %}
+		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+			<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+		</a>
+		{% endfor %}
+		</div><!-- bigbox -->
+	</div><!-- col-md-6 -->
+	<div class="col-md-3">
+		<div class="box">
+		{% for post in site.categories.box limit:1 %}
+		{% if post.imageUrl %}
+		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+			<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+		</a>
+		{% else %}
+		<a href="{{ post.link }}">
+		<div class="boxtype">{{ post.content }}</div>
+		
+		</a>
+		{% endif %}
+		{% endfor %}
+		</div><!-- box -->
+	</div>
+	<div class="col-md-3">
+		<div class="box">
+		{% for post in site.categories.box limit:1 offset:1 %}
+		{% if post.imageUrl %}
+		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+			<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+		</a>
+		{% else %}
+		<a href="{{ post.link }}">
+		<div class="boxtype">{{ post.content }}</div>
+		
+		</a>
+		{% endif %}
+		{% endfor %}
+		</div><!-- box -->
+	</div>
+</div><!-- row -->
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="box">
+		{% for post in site.categories.box limit:1 offset:2 %}
+		{% if post.imageUrl %}
+		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+			<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+		</a>
+		{% else %}
+		<a href="{{ post.link }}">
+		<div class="boxtype">{{ post.content }}</div>
+		
+		</a>
+		{% endif %}
+		{% endfor %}
+		</div><!-- box -->
+	</div>
+	<div class="col-md-3">
+		<div class="box">
+		{% for post in site.categories.box limit:1 offset:3 %}
+		{% if post.imageUrl %}
+		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+			<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+		</a>
+		{% else %}
+		<a href="{{ post.link }}">
+		<div class="boxtype">{{ post.content }}</div>
+		
+		</a>
+		{% endif %}
+		{% endfor %}
+		</div><!-- box -->
+	</div>
+	<div class="col-md-6">
+		<div class="bigbox">
+		{% for post in site.categories.bigbox limit:1 offset:1 %}
+		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+			<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+		</a>
+		{% endfor %}
+		</div><!-- bigbox -->
+	</div><!-- col-md-6 -->
+</div><!-- row -->
+
+<div class="row">
+	<div class="col-md-6">
+		<div class="bigbox">
+		{% for post in site.categories.bigbox limit:1 offset:2 %}
+		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+			<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+		</a>
+		{% endfor %}
+		</div><!-- bigbox -->
+	</div><!-- col-md-6 -->
+	<div class="col-md-3">
+		<div class="box">
+		{% for post in site.categories.box limit:1 offset:4 %}
+		{% if post.imageUrl %}
+		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+			<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+		</a>
+		{% else %}
+		<a href="{{ post.link }}">
+		<div class="boxtype">{{ post.content }}</div>
+		
+		</a>
+		{% endif %}
+		{% endfor %}
+		</div><!-- box -->
+	</div>
+	<div class="col-md-3">
+		<div class="box">
+		{% for post in site.categories.box limit:1 offset:5 %}
+		{% if post.imageUrl %}
+		<a href="{{ post.link }}"><img src="{{ post.imageUrl }}">
+			<div class="boxoverlay"><span>{{ post.title }} <small><span class="fa fa-arrow-circle-o-right"></span></small></span></div>
+		</a>
+		{% else %}
+		<a href="{{ post.link }}">
+		<div class="boxtype">{{ post.content }}</div>
+		
+		</a>
+		{% endif %}
+		{% endfor %}
+		</div><!-- box -->
+	</div>
+</div><!-- row -->
+</div><!-- grid -->
+<div class="socialicons">
+		<a href="http://www.twitter.com/fredoniau"><span class="fa fa-twitter-square"></span></a> <a href="http://www.instagram.com/fredoniau"><span class="fa fa-instagram"></span></a> <a href="http://www.facebook.com/fredoniau"><span class="fa fa-facebook-square"></span></a> <a href="{{ site.baseurl }}/pages/social.html"><span class="fa fa-list-ul"></span></a>
+</div><!-- socialicons -->

@@ -1,0 +1,112 @@
+/* Navbar styles */
+@import url("navbar.css");
+
+/* Carousel styles */
+@import url("carousel.css");
+
+/* Video styles */
+@import url("video.css");
+
+/* Grid styles */
+@import url("grid.css");
+
+/* accourdion styles */
+@import url("accordion.css");
+
+/* footer styles */
+@import url("footer.css");
+
+/* search styles */
+@import url("search.css");
+
+/* experimental layouts */
+@import url("layout.css");
+
+/* Utility classes */
+@import url("utilities.css");
+
+
+
+/* Special CSS for SUNY Fredonia's Home page */
+
+/* Major elements */
+
+p {
+font-size: 16px;
+max-width: 850px;
+margin-left: auto;
+margin-right: auto;
+font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+font-family: helvetica, arial, sans-serif;
+}
+
+
+/* Accordions need padding when stacked */
+.panel-group {
+margin-bottom: 5px;
+}
+
+/* Center block class for quickly centering objects and text */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Social Icon group class */
+.socialicons {
+font-size: 30px;
+}
+
+/* Logo */
+.fred-logo {
+margin: 20px;
+}
+
+/*ALERTS*/
+
+.alert {
+position: fixed;
+top: 90px;
+z-index: 5000;
+max-width: 600px;
+margin-right: 15px;
+}
+
+.alert .close {
+padding-left: 5px;
+}
+
+/* ADMISSIONS */
+.admissions img {
+margin: 10px 0 10px 0;
+}
+
+/* Backgrounds */
+
+.mission {
+background-color: transparent;
+background-image:url('http://sunyfredonia.github.io/homepage/img/paper_fibers.png');
+background-repeat: repeat;
+}
+
+.footer {
+background-color: transparent;
+background-image:url('http://sunyfredonia.github.io/homepage/img/mochaGrunge.png');
+background-repeat: repeat;
+}
+
+.boxtype {
+background-color: #c67f07;
+}
+
+.smalltext { 
+font-size: 80%; 
+}
+
+/* ie styles */
+@import url("ie.css");
