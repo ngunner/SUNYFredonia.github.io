@@ -12,11 +12,11 @@ author :
   twitter : sunyfredonia
   web : http://www.fredonia.edu
 
-production_url : http://sunyfredonis.github.io/homepage
+production_url : http://sunyfredonia.github.io/
 
 version : 0.1.0
 
-baseurl : http://sunyfredonia.github.io/homepage
+baseurl : http://sunyfredonia.github.io/
    
    
 analytics :
