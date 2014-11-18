@@ -1,0 +1,12 @@
+body {
+background-color: #cccccc;
+}
+
+#header-breadcrumb {
+  height:26px;
+}
+
+#sidebar1 {
+  background-position: -128px bottom;
+  height: 100%;
+}

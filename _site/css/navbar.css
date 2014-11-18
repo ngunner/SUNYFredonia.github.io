@@ -75,6 +75,7 @@ background-color: rgba(0,56,168,1);
 .navbar {
 background-color: rgba(0,56,168,1);
 }
+
 .navbar-brand img {
 height:50px;
 padding-bottom:10px;
@@ -84,3 +85,8 @@ padding-right:3px;
 
 }
 
+/*Call this to make the navbar work in Omni update templates*/
+.navbar-fred-omni {
+background-color: #444444;
+margin-bottom: 0px;
+}
