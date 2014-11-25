@@ -98,6 +98,14 @@ width: 100%;
 margin-top: 15px;
 }
 
+.fred-menu img {
+opacity: 0.7;
+}
+
+.fred-menu img:hover {
+opacity: 1;
+}
+
 /*Call this to make the navbar work in Omni update templates*/
 .navbar-fred-omni {
 background-color: #444444;
