@@ -106,6 +106,10 @@ opacity: 0.7;
 opacity: 1;
 }
 
+.fred-menu .panel-default>.panel-heading {
+background-color: white;
+}
+
 /*Call this to make the navbar work in Omni update templates*/
 .navbar-fred-omni {
 background-color: #444444;

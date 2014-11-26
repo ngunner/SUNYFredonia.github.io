@@ -7,21 +7,21 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Fav icon -->
-    <link rel="icon" type="image/png" href="http://nicholasgunner.com/SUNYFredonia.github.io//img/icon.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="http://nicholasgunner.com/SUNYFredonia.github.io//img/touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="http://nicholasgunner.com/SUNYFredonia.github.io//img/touch-icon-iphone-retina.png">
+    <link rel="icon" type="image/png" href="/img/icon.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/touch-icon-iphone-retina.png">
     
     <!-- Bootstrap CSS -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="http://nicholasgunner.com/SUNYFredonia.github.io//js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/js/bootstrap/css/bootstrap.min.css">
     
     <!-- Yamm styles-->
-    <link href="http://nicholasgunner.com/SUNYFredonia.github.io//js/yamm/yamm/yamm.css" rel="stylesheet">
+    <link href="/js/yamm/yamm/yamm.css" rel="stylesheet">
     
     <!-- Font Awesome CSS -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!-- Fredonia Specific CSS -->
-    <link rel="stylesheet" href="http://nicholasgunner.com/SUNYFredonia.github.io//css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     
     <!--[if IE]>
 	<style type="text/css"> 
@@ -61,7 +61,7 @@
       			<span class="icon-bar"></span>
       			<span class="icon-bar"></span>
     		</button>
-    		<a class="navbar-brand" style="font-family:helvetica;color:white;" href="http://nicholasgunner.com/SUNYFredonia.github.io//"><img src="http://nicholasgunner.com/SUNYFredonia.github.io//img/fredlogowhite.png"></a>
+    		<a class="navbar-brand" style="font-family:helvetica;color:white;" href="/"><img src="/img/fredlogowhite.png"></a>
   		</div><!-- navbar-header -->
   			
   		<!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,25 +75,94 @@
         	<div class="yamm-content">
 				<div class="row">
 					<!-- More -->
-		            <div class="col-md-2">
-		            	<div class="thumbnail fred-menu">
-							<a href="http://www.fredonia.edu/admissions/apply.asp">
-								<button type="button" class="btn btn-primary">Apply</button>
-							</a>
-							<hr>
-							<a href="http://www.fredonia.edu/lifelong/">
-								<h3>Visit Us</h3>
-							</a>
-							<a href="http://www.fredonia.edu/lifelong/">
-								<h3>Visit Us</h3>
-							</a>
-							<a href="http://www.fredonia.edu/lifelong/">
-								<h3>Contact</h3>
-							</a>
+		            <div class="col-md-3">
+		            	<div class="fred-menu">
+							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+							  	<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingOne">
+								  		<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#navFreshman" aria-expanded="false" aria-controls="navFreshman">
+									  			Freshman
+											</a>
+								  		</h4>
+									</div><!-- panel-heading -->
+									<div id="navFreshman" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+								  		<div class="panel-body">
+								  			<a href="http://www.fredonia.edu/admissions/freshmen.asp"><p>Admissions information</p></a>
+											<a href="http://www.fredonia.edu/admissions/apply.asp"><p>How to Apply</p></a>
+											<a href="http://www.fredonia.edu/admissions/visit.asp"><p>Visit us</p></a>
+								  		</div><!-- panel-body -->
+									</div><!-- panel-collapse collapse -->
+							  	</div><!-- panel panel-default -->
+							  	<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingTwo">
+								  		<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTransfers" aria-expanded="false" aria-controls="collapseTransfers">
+									  			Transfer Students
+											</a>
+								  		</h4>
+									</div><!-- panel-heading -->
+									<div id="collapseTransfers" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								  		<div class="panel-body">
+								  			<p><a href="http://www.fredonia.edu/admissions/transfer.asp">Transfer information</a></p>
+											<p><a href="/admissions/apply.asp">How to Apply</a></p>
+											<p><a href="https://connect.fredonia.edu/yourconnection/FRD_TransArt.P_TransArt">Transfer Credit Guide</a></p>
+											<p><a href="/admissions/accepted_transfers.asp">Accepted Students</a></p>
+											<p><a href="/edp/">EOP Program</a></p>
+											<p><a href="http://fredonia.smartcatalogiq.com/2014-2015/Catalog/Academic-Policies/Requirements-for-a-Second-Baccalaureate-Degree">Second Baccalaureate Students</a></p>
+								 		</div><!-- panel-body -->
+									</div><!-- panel-collapse collapse -->
+							  	</div><!-- panel panel-default -->
+							  	<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingThree">
+								  		<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseGraduate" aria-expanded="false" aria-controls="collapseGraduate">
+									  			Graduate Students
+											</a>
+								  		</h4>
+									</div><!-- panel-heading -->
+									<div id="collapseGraduate" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+								  		<div class="panel-body">
+											<p><a href="http://www.fredonia.edu/gradstudies/">Graduate information</a></p>
+								  		</div><!-- panel-body -->
+									</div><!-- panel-collapse collapse -->
+							  	</div><!-- panel panel-default -->
+							  	<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingThree">
+								  		<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseInternational" aria-expanded="false" aria-controls="collapseInternational">
+									  			International Students
+											</a>
+								  		</h4>
+									</div><!-- panel-heading -->
+									<div id="collapseInternational" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+								  		<div class="panel-body">
+											<p><a href="/internationaleducation/iss/apply_freshmen.asp" target="_blank">Undergraduate Admissions</a></p>
+											<p><a href="/internationaleducation/iss/apply_graduate.asp" target="_blank">Graduate Admissions</a></p>
+											<p><a href="/internationaleducation/english_language.asp" target="_blank">English Language Center</a></p>
+											<p><a href="/internationaleducation/iss/" target="_blank">International Student Services</a></p>
+								  		</div><!-- panel-body -->
+									</div><!-- panel-collapse collapse -->
+							  	</div><!-- panel panel-default -->
+							  	<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingThree">
+								  		<h4 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseLifelong" aria-expanded="false" aria-controls="collapseLifelong">
+									  			Lifelong Learning
+											</a>
+								  		</h4>
+									</div><!-- panel-heading -->
+									<div id="collapseLifelong" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+								  		<div class="panel-body">
+											<p><a href="http://www.fredonia.edu/lifelong/" target="_blank">Lifelong Learning and Special Programs info</a></p>
+								  		</div><!-- panel-body -->
+									</div><!-- panel-collapse collapse -->
+							  	</div><!-- panel panel-default -->
+							</div><!-- panel-group -->
             			</div><!-- thumbnail fred-menu -->
-            		</div><!-- col-md-2 -->
+            		</div><!-- col-md-3 -->
 					<!-- FRESHMEN -->
-					<div class="col-md-2">
+					<div class="col-md-3">
 						<div class="thumbnail fred-menu">
 							<a href="http://www.fredonia.edu/admissions/">
 								<img src="http://www.fredonia.edu/admissions/images/landing/freshman.jpg" alt="..." class="img-responsive">
@@ -109,9 +178,9 @@
 								<h3>Link</h3>
 							</a>
 						</div><!-- thumbnail -->
-					</div><!-- col-md-2 -->
+					</div><!-- col-md-3 -->
 					<!-- TRANFSFERS -->
-					<div class="col-md-2">
+					<div class="col-md-3">
 						<div class="thumbnail fred-menu">
 							<a href="http://www.fredonia.edu/admissions/">
 								<img src="http://www.fredonia.edu/admissions/images/landing/transfers.jpg" alt="..." class="img-responsive">
@@ -127,27 +196,9 @@
 								<h3>Link</h3>
 							</a>
 						</div><!-- thumbnail -->
-					</div><!-- col-md-2 -->
-					<!-- INTERNATIONAL -->
-					<div class="col-md-2">
-						<div class="thumbnail fred-menu">
-							<a href="http://www.fredonia.edu/internationaleducation/">
-								<img src="http://www.fredonia.edu/admissions/images/landing/international.jpg" alt="..." class="img-responsive">
-							</a>
-							<a href="http://www.fredonia.edu/internationaleducation/">
-								<h3><b>International Students</b></h3>
-							</a>
-							<hr>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
-							</a>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
-							</a>
-						</div><!-- thumbnail -->
-					</div><!-- col-md-2 -->
+					</div><!-- col-md-3 -->
 					<!-- GRADUATE -->
-					<div class="col-md-2">
+					<div class="col-md-3">
 						<div class="thumbnail fred-menu">
 							<a href="http://www.fredonia.edu/gradstudies/">
 								<img src="http://www.fredonia.edu/admissions/images/landing/graduate.jpg" alt="..." class="img-responsive">
@@ -163,25 +214,7 @@
 								<h3>Link</h3>
 							</a>
 						</div><!-- thumbnail -->
-					</div><!-- col-md-2 -->
-					<!-- LIFELONG LEARNING -->
-					<div class="col-md-2">
-						<div class="thumbnail fred-menu">
-							<a href="http://www.fredonia.edu/lifelong/">
-								<img src="http://www.fredonia.edu/admissions/images/landing/international.jpg" alt="..." class="img-responsive">
-							</a>
-							<a href="http://www.fredonia.edu/lifelong/">
-								<h3><b>Lifelong Learning</b></h3>
-							</a>
-							<hr>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
-							</a>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
-							</a>
-						</div><!-- thumbnail -->
-					</div><!-- col-md-2 -->
+					</div><!-- col-md-3 -->
 				</div><!-- row -->
             </div><!-- yamm-content -->
         </li>
@@ -189,11 +222,11 @@
 </li>
 				<li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Students <b class="caret"></b></a>
 	<ul class="dropdown-menu">
-		<li><a href="http://nicholasgunner.com/SUNYFredonia.github.io//pages/students.html">Student Resources</a></li>
+		<li><a href="/pages/students.html">Student Resources</a></li>
 		<li><a href="http://www.fredonia.edu/studentaffairs/parentlinks.asp">Parent Resources</a></li>
 	</ul>
 </li>
-      			<li><a href="http://nicholasgunner.com/SUNYFredonia.github.io//pages/faculty_staff.html">Faculty & Staff</a></li>
+      			<li><a href="/pages/faculty_staff.html">Faculty & Staff</a></li>
 				<li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alumni <b class="caret"></b></a>
 	<ul class="dropdown-menu">
 		<li><a href="http://alumni.fredonia.edu/Events.aspx">Alumni Calendar of Events</a></li>
@@ -213,7 +246,7 @@
 				<li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search"></span> <b class="caret"></b></a>
 	<ul class="dropdown-menu">
 		<li>
-			<form action="http://nicholasgunner.com/SUNYFredonia.github.io//pages/search.html" method="get" id="topsearch">
+			<form action="/pages/search.html" method="get" id="topsearch">
 			<input type="text" name="q" class="span10" autocomplete="on" placeholder="Search here" />
 			</form>
 		</li>
@@ -423,7 +456,7 @@
 		<div class="col-md-3">
 			<img class="logofooter" src="http://sunyfredonia.github.io/img/fredlogowhite.png">
 <address>
-<a style="font-family:helvetica;color:white;" href="http://nicholasgunner.com/SUNYFredonia.github.io//"><!--<img src="http://sunyfredonia.github.io/homepage/img/fredlogowhite.png" style="height:70px;padding-bottom:10px;padding-right:3px;"></br>--></a></br>
+<a style="font-family:helvetica;color:white;" href="/"><!--<img src="http://sunyfredonia.github.io/homepage/img/fredlogowhite.png" style="height:70px;padding-bottom:10px;padding-right:3px;"></br>--></a></br>
 280 Central Ave.<br>
 Fredonia, NY 14063<br>
 716-673-3111
@@ -486,11 +519,11 @@ Fredonia, NY 14063<br>
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Bootstrap Javascript -->
     <!-- Latest compiled and minified JavaScript -->
-    <script src="http://nicholasgunner.com/SUNYFredonia.github.io//js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap/js/bootstrap.min.js"></script>
     
     <!-- Script to center landscape vs portrait images in grid -->
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
-        <script src="http://nicholasgunner.com/SUNYFredonia.github.io//js/jquery-imagefill.js"></script>
+        <script src="/js/jquery-imagefill.js"></script>
         <script>
             $('.box').imagefill();
         </script>
@@ -553,13 +586,20 @@ Fredonia, NY 14063<br>
 </script>-->
 
 <!-- Fitvids Script -->
-	<script src="http://nicholasgunner.com/SUNYFredonia.github.io//js/jquery.fitvids.js"></script>
+	<script src="/js/jquery.fitvids.js"></script>
 	<script>
   $(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
     $(".fitvids").fitVids();
   });
 	</script>
+	
+<!-- yamm -->	
+<script>	
+$(document).on('click', '.yamm .dropdown-menu', function(e) {
+  e.stopPropagation()
+})
+</script>
 
 <!-- Google Analytics -->
 <script>
