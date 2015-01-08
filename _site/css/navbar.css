@@ -52,7 +52,7 @@ margin-top: 22px;
 
 
 /** Overall Bootstrap overrides **/
-.dropdown-menu {
+.yamm-fw .dropdown-menu {
 background-color: rgba(0,56,168,0.9);
 }
 
