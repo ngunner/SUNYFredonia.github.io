@@ -52,7 +52,7 @@
   <body>
 <!-- Navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top yamm" role="navigation">
-	<div class="container">
+	<div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
   		<div class="navbar-header">
   			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -76,14 +76,12 @@
 				<div class="row">
 					<!-- More -->
 		            <div class="col-md-3">
-		            	<div class="fred-menu">
 							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 							  	<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingOne">
+									<div class="panel-heading u-pointer" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#navFreshman" aria-expanded="false" aria-controls="navFreshman">
 								  		<h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordion" href="#navFreshman" aria-expanded="false" aria-controls="navFreshman">
-									  			Freshman
-											</a>
+									  		Freshman
+									  		<span class="fa fa-angle-down pull-right"></span>
 								  		</h4>
 									</div><!-- panel-heading -->
 									<div id="navFreshman" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -95,11 +93,10 @@
 									</div><!-- panel-collapse collapse -->
 							  	</div><!-- panel panel-default -->
 							  	<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingTwo">
+									<div class="panel-heading u-pointer" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTransfers" aria-expanded="false" aria-controls="collapseTransfers">
 								  		<h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTransfers" aria-expanded="false" aria-controls="collapseTransfers">
-									  			Transfer Students
-											</a>
+									  		Transfer Students
+									  		<span class="fa fa-angle-down pull-right"></span>
 								  		</h4>
 									</div><!-- panel-heading -->
 									<div id="collapseTransfers" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -114,11 +111,10 @@
 									</div><!-- panel-collapse collapse -->
 							  	</div><!-- panel panel-default -->
 							  	<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingThree">
+									<div class="panel-heading u-pointer" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseGraduate" aria-expanded="false" aria-controls="collapseGraduate">
 								  		<h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseGraduate" aria-expanded="false" aria-controls="collapseGraduate">
-									  			Graduate Students
-											</a>
+									  		Graduate Students
+									  		<span class="fa fa-angle-down pull-right"></span>
 								  		</h4>
 									</div><!-- panel-heading -->
 									<div id="collapseGraduate" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -128,11 +124,10 @@
 									</div><!-- panel-collapse collapse -->
 							  	</div><!-- panel panel-default -->
 							  	<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingThree">
+									<div class="panel-heading u-pointer" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseInternational" aria-expanded="false" aria-controls="collapseInternational">
 								  		<h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseInternational" aria-expanded="false" aria-controls="collapseInternational">
-									  			International Students
-											</a>
+									  		International Students
+									  		<span class="fa fa-angle-down pull-right"></span>
 								  		</h4>
 									</div><!-- panel-heading -->
 									<div id="collapseInternational" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -145,11 +140,10 @@
 									</div><!-- panel-collapse collapse -->
 							  	</div><!-- panel panel-default -->
 							  	<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingThree">
-								  		<h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseLifelong" aria-expanded="false" aria-controls="collapseLifelong">
-									  			Lifelong Learning
-											</a>
+									<div class="panel-heading" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseLifelong" aria-expanded="false" aria-controls="collapseLifelong">
+								  		<h4 class="panel-title u-pointer">
+									  		Lifelong Learning
+									  		<span class="fa fa-angle-down pull-right"></span>
 								  		</h4>
 									</div><!-- panel-heading -->
 									<div id="collapseLifelong" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -159,62 +153,40 @@
 									</div><!-- panel-collapse collapse -->
 							  	</div><!-- panel panel-default -->
 							</div><!-- panel-group -->
-            			</div><!-- thumbnail fred-menu -->
             		</div><!-- col-md-3 -->
 					<!-- FRESHMEN -->
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<div class="thumbnail fred-menu">
 							<a href="http://www.fredonia.edu/admissions/">
 								<img src="http://www.fredonia.edu/admissions/images/landing/freshman.jpg" alt="..." class="img-responsive">
 							</a>
 							<a href="http://www.fredonia.edu/admissions/">
-								<h3><b>Freshmen</b></h3>
-							</a>
-							<hr>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
-							</a>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
+								<h3><b>Apply</b></h3>
 							</a>
 						</div><!-- thumbnail -->
-					</div><!-- col-md-3 -->
+					</div><!-- col-md-2 -->
 					<!-- TRANFSFERS -->
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<div class="thumbnail fred-menu">
 							<a href="http://www.fredonia.edu/admissions/">
 								<img src="http://www.fredonia.edu/admissions/images/landing/transfers.jpg" alt="..." class="img-responsive">
 							</a>
 							<a href="http://www.fredonia.edu/admissions/">
-								<h3><b>Transfers</b></h3>
+								<h3><b>Schedule a visit</b></h3>
 							</a>
-							<hr>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
-							</a>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
-							</a>
-						</div><!-- thumbnail -->
-					</div><!-- col-md-3 -->
+						</div><!-- thumbnail fred-menu -->
+					</div><!-- col-md-2 -->
 					<!-- GRADUATE -->
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<div class="thumbnail fred-menu">
 							<a href="http://www.fredonia.edu/gradstudies/">
 								<img src="http://www.fredonia.edu/admissions/images/landing/graduate.jpg" alt="..." class="img-responsive">
 							</a>
 							<a href="http://www.fredonia.edu/gradstudies/">
-								<h3><b>Graduate Students</b></h3>
-							</a>
-							<hr>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
-							</a>
-							<a href="http://www.fredonia.edu/admissions/">
-								<h3>Link</h3>
+								<h3><b>Email Admissions</b></h3>
 							</a>
 						</div><!-- thumbnail -->
-					</div><!-- col-md-3 -->
+					</div><!-- col-md-2 -->
 				</div><!-- row -->
             </div><!-- yamm-content -->
         </li>
@@ -234,7 +206,7 @@
 		<li><a href="http://www.fredonia.edu/foundation/">Giving</a></li>
 	</ul>
 </li>
-				<li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-envelope"></span> <b class="caret"></b></a>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-envelope"></span> <b class="caret"></b></a>
 	<ul class="dropdown-menu">
 		<li><a href="http://mail.fredonia.edu/">FREDmail</a></li>
 		<li><a href="https://fredonia.sln.suny.edu/default.asp">Angel</a></li>
@@ -243,7 +215,7 @@
 		<li><a href="http://fredapps.fredonia.edu/">All FREDapps</a></li>
 	</ul>
 </li>
-				<li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search"></span> <b class="caret"></b></a>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa-search"></span> <b class="caret"></b></a>
 	<ul class="dropdown-menu">
 		<li>
 			<form action="/pages/search.html" method="get" id="topsearch">

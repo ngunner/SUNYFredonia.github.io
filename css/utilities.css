@@ -7,3 +7,7 @@ max-width: 960px;
 .u-5pad {
 padding: 5px;
 }
+
+.u-pointer {
+cursor: pointer;
+}
